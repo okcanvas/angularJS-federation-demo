@@ -1,0 +1,36 @@
+<!-- app/index.html (AngularJS App) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AngularJS App</title>
+</head>
+<body>
+  <script src="./dist/remoteEntry.js"></script>
+  <script src="./dist/bundle.js"></script>
+  <script>
+    console.log(window);
+    let el = document.createElement('angularComponent')
+    let body = document.querySelector('body')
+    console.log(body)
+    body.append(el)
+
+  </script>
+
+
+  
+<div ng-app="angularApp"></div>
+<div id="angularApp"></div>
+<div id="angular-container"></div>
+
+<body ng-app="angularApp">
+
+
+  
+  <p>Test</p>
+  <div ng-controller="sampleComponent">
+    <h1>{{hello}}</h1>
+  </div>
+</body>
+</body>
+</html>
