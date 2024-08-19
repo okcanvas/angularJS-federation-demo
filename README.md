@@ -6,8 +6,8 @@
 ## host APP
 - vue or react
 
-## issue
-- store status
+## support and issue
+- store status ( ngRedux )
 - event bus
 - sharded components
 - props
