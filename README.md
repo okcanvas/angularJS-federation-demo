@@ -6,9 +6,12 @@
 ## host APP
 - vue or react
 
-## support and issue
+## tested and support
 - store status ( ngRedux )
 - event bus
 - sharded components
 - props
 - callback
+
+## todo
+- i18n
